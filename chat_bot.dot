@@ -1,0 +1,20 @@
+digraph {
+node [style="filled", shape="ellipse", fillcolor="invis", fontcolor="black"];
+0 -> 1  [label="GenericEdge "];
+1 -> 2  [label="GenericEdge "];
+1 -> 3  [label="GenericEdge "];
+1 -> 4  [label="GenericEdge "];
+4 -> 5  [label="GenericEdge "];
+5 -> 6  [label="GenericEdge "];
+5 -> 7  [label="GenericEdge "];
+5 -> 8  [label="GenericEdge "];
+0 [label="&lt;jaclang.core.construct.Root object at 0x7f56725f14f0&gt;"fillcolor="#FFE9E9"];
+1 [label="user(user_name=&#x27;user&#x27;)"fillcolor="#F0FFF0"];
+2 [label="data(user_data={&#x27;age&#x27;: 20, &#x27;Pressure&#x27;: (120, 80), &#x27;Married&#x27;: False})"fillcolor="#F5E5FF"];
+3 [label="todo(todo_list=[&#x27;Do heart surgery : 04/12/2020&#x27;, &#x27;Run Marathon : 14/12/2020&#x27;, &quot;Doctor&#x27;s appointment : 20/12/2020&quot;])"fillcolor="#F5E5FF"];
+4 [label="session(session_id=&#x27;35&#x27;, user_data={&#x27;age&#x27;: 20, &#x27;Pressure&#x27;: (120, 80), &#x27;Married&#x27;: False}, todo_list=[&#x27;Do heart surgery : 04/12/2020&#x27;, &#x27;Run Marathon : 14/12/2020&#x27;, &quot;Doctor&#x27;s appointment : 20/12/2020&quot;])"fillcolor="#F5E5FF"];
+5 [label="router()"fillcolor="#FFFFE0"];
+6 [label="RAG_chat()"fillcolor="#D2FEFF "];
+7 [label="todo_chat()"fillcolor="#D2FEFF "];
+8 [label="user_qa_chat()"fillcolor="#D2FEFF "];
+}
